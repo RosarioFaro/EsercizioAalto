@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Karbon";
+  src: url("./fonts/Karbon-Regular.woff") format("woff"), url("./fonts/Karbon-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karbon";
+  src: url("./fonts/Karbon-Semibold.woff") format("woff"), url("./fonts/Karbon-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: "Karbon", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+title {
+  font-family: "Karbon", sans-serif;
+  font-weight: 600;
+}
